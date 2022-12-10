@@ -3,7 +3,7 @@
 ## Purpose 
 Step by Step Process - Skipping Explaination. 
 
-## Installing Dependencies. 
+## Installing Laravel Dependencies. 
 
 ### Composer
 
@@ -17,5 +17,10 @@ Step by Step Process - Skipping Explaination.
 ## Installing Jet Stream. 
 
 ``` composer require laravel/jetstream ```
+
+## Installing inertia
+
+``` php artisan jetstream:install inertia --teams ```
+
 
 
