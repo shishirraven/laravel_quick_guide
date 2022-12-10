@@ -22,5 +22,13 @@ Step by Step Process - Skipping Explaination.
 
 ``` php artisan jetstream:install inertia --teams ```
 
+### Finalizing Installation. 
+
+```
+npm install
+npm run build
+php artisan migrate
+```
+
 
 
