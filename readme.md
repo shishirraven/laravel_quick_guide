@@ -14,13 +14,23 @@ Step by Step Process - Skipping Explaination.
 
 ``` composer create-project laravel/laravel example-app ```
 
+## Running Project. 
+
+``` 
+php artisan serve
+```
+
 ## Installing Jet Stream. 
 
-``` composer require laravel/jetstream ```
+``` 
+composer require laravel/jetstream 
+```
 
 ## Installing inertia
 
-``` php artisan jetstream:install inertia --teams ```
+``` 
+php artisan jetstream:install inertia --teams 
+```
 
 ### Finalizing Installation. 
 
