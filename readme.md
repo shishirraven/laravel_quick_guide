@@ -68,7 +68,7 @@ Change the content of the following Path.
 ### Creating a Model
 
 ``` 
-php artisan make:model -mrc Sites
+php artisan make:model -mrc {{ItemName}}
 ``` 
 
 Understanding Notes. 
@@ -76,6 +76,45 @@ Understanding Notes.
 > You can see all the available options by running the ``` php artisan make:model --help ``` command.
 
 >[ Model from Laravel Bootcamp  ](https://bootcamp.laravel.com/inertia/creating-chirps )
+
+
+### Creating Routes
+
+Open ```(Ctl + P)```
+
+```
+web/routes.php
+```
+
+Add at top to routes.php
+
+```
+use App\Http\Controllers\{{ItemName}}Controller;
+```
+
+Add Route to routes.php
+
+```
+Route::resource('chirps', {{ItemName}}Controller::class)
+    ->only(['index', 'store'])
+    ->middleware(['auth', 'verified']);
+```
+
+Check with ``` php artisan route:list ```
+
+
+
+
+
+
+
+## References & Resources. 
+
+[Laravel Bootcamp](https://bootcamp.laravel.com/inertia/installation)
+[Laravel CRUD](https://larainfo.com/blogs/laravel-9-inertia-vue-3-crud-tutorial-example)
+
+
+
 
 
 
