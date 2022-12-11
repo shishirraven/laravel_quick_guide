@@ -61,6 +61,25 @@ Change the content of the following Path.
 > Get Quick SVG (emojis)  
 > https://www.kirupa.com/tools/twemoji_browser.htm
 
-
 --- 
+
+## 2. Building Content Type (Example Sites)
+
+### Creating a Model
+
+``` 
+php artisan make:model -mrc Sites
+``` 
+
+Understanding Notes. 
+
+> You can see all the available options by running the ``` php artisan make:model --help ``` command.
+
+>[ Model from Laravel Bootcamp  ](https://bootcamp.laravel.com/inertia/creating-chirps )
+
+
+
+
+
+
 
