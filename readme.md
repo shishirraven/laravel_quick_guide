@@ -40,7 +40,7 @@ npm run build
 php artisan migrate
 ```
 
-### Running the Deveopment Server. 
+## Running Development for Hot Reload (VueJs/Inertia) 
 
 Quick Tip - Run it on a different cmd prompt with ``` php artisan serve ```
 
@@ -48,4 +48,12 @@ Quick Tip - Run it on a different cmd prompt with ``` php artisan serve ```
 npm run dev
 ```
 
+### Changing Logo (Inertia)
+Change the content of the following Path. 
+
+Expect a SVG.
+
+```
+/resources/applicationMark.vue 
+```
 
