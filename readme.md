@@ -3,6 +3,8 @@
 ## Purpose 
 Step by Step Process - Skipping Explaination. 
 
+# Setup
+
 ## Installing Laravel Dependencies. 
 
 ### Composer
@@ -34,7 +36,7 @@ php artisan jetstream:install inertia --teams
 
 ### Finalizing Installation. 
 
-```
+``` 
 npm install
 npm run build
 php artisan migrate
@@ -45,15 +47,20 @@ php artisan migrate
 Quick Tip - Run it on a different cmd prompt with ``` php artisan serve ```
 
 ```
-npm run dev
+> npm run dev
 ```
 
-### Changing Logo (Inertia)
+# Tasks Post Setup
+
+## 1.  Changing Logo (Inertia)
 Change the content of the following Path. 
-
-Expect a SVG.
-
 ```
 /resources/applicationMark.vue 
 ```
+
+> Get Quick SVG (emojis)  
+> https://www.kirupa.com/tools/twemoji_browser.htm
+
+
+--- 
 
