@@ -40,5 +40,12 @@ npm run build
 php artisan migrate
 ```
 
+### Running the Deveopment Server. 
+
+Quick Tip - Run it on a different cmd prompt with ``` php artisan serve ```
+
+```
+npm run dev
+```
 
 
